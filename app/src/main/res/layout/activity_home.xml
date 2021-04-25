@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/history_button2"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickHistoryButton"
+        android:text="История"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomQuestButton2" />
+
+    <Button
+        android:id="@+id/randomQuestButton2"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickStart"
+        android:text="Случайное задание"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toQuestButton"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/toQuestsButton"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="212dp"
+        android:onClick="onToQuestsButtonClick"
+        android:text="К заданиям"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toQuestButton"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onToQuestButtonClick"
+        android:text="К заданию"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toQuestsButton" />
+
+    <Button
+        android:id="@+id/toRulesButton"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onToRulesButtonClick"
+        android:text="Правила"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_button2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

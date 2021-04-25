@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_home3"
+        android:layout_width="78dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="goHomeButton"
+        android:text="Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task21"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task22"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task23"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task24"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task25"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task26"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task14"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task15"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task2" />
+
+    <Button
+        android:id="@+id/task16"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №16"
+        app:layout_constraintBottom_toBottomOf="@+id/task3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task3" />
+
+    <Button
+        android:id="@+id/task17"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task18"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task19"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №19"
+        app:layout_constraintBottom_toBottomOf="@+id/task6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task6" />
+
+    <Button
+        android:id="@+id/task20"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="onClickStart"
+        android:text="Задание №20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/task1"
+        app:layout_constraintTop_toTopOf="@+id/task1" />
+
+    <Button
+        android:id="@+id/task4"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task13"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task5"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task6"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task7"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task8"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task9"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task10"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task11"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task12"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task1"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/task3"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Выберете нужное задание"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_home3"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/task2"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="282dp"
+        android:onClick="onClickStart"
+        android:text="Задание №2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/randomQuestButton"
+        android:layout_width="242dp"
+        android:layout_height="39dp"
+        android:onClick="onClickStart"
+        android:text="Случайное задание"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/history_button"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:onClick="onClickHistoryButton"
+        android:text="История"
+        app:layout_constraintEnd_toStartOf="@+id/randomQuestButton"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
